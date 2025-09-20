@@ -1,4 +1,3 @@
 Belajar python, untuk semua
 
-C
-ode gratis bagi yang mau melihat
+Code gratis bagi yang mau melihat
