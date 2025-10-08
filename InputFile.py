@@ -42,4 +42,4 @@ if close == False:
         print(f"Umur: {biodata['age']} tahun")
         print(f"Hobi: {biodata['hobby']}")
 else:
-    print("Program dihentikan.")
+    print("Program dihentikan error input.")
