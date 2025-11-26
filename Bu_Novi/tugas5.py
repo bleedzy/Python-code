@@ -1,8 +1,6 @@
 print('Program Mencari Angka Terbesar')
 print('--------------------------')
-print()
 n = int(input('Masukkan jumlah angka : '))
-print()
 
 if n <= 0:
     print('Tidak ada angka untuk diproses.')
@@ -33,10 +31,6 @@ else:
     elif metode == '2':
         total = sum(x)
         metode_used = 'Fungsi sum()'
-    else:
-        print('Pilihan tidak valid, menggunakan fungsi sum() secara default.')
-        total = sum(x)
-        metode_used = 'Fungsi sum() (default)'
 
     print('Angka terbesar adalah :', max_num)
     print(f'Total / Jumlah seluruh angka ({metode_used}):', total)

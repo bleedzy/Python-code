@@ -90,7 +90,6 @@ Q.enqueue('A')
 Q.enqueue('B')
 Q.enqueue('C')
 Q.display()
-
 Q.dequeue()
 Q.display()
 
@@ -99,6 +98,5 @@ CQ.enqueue(10)
 CQ.enqueue(20)
 CQ.enqueue(30)
 CQ.display()
-
 CQ.dequeue()
 CQ.display()
