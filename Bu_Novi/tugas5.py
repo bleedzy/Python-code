@@ -1,10 +1,8 @@
 input = int(input('Masukkan jumlah angka : '))
-
 if input <= 0:
     print('Tidak ada angka untuk diproses.')
 else:
     print('Masukkan', input, 'angka : ')
-
     x = []
     for i in range(input):
         print('Angka ke -', i + 1, ': ', sep='', end='')
