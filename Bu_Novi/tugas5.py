@@ -1,16 +1,16 @@
-input = int(input('Masukkan jumlah angka : '))
-if input <= 0:
+inp = int(input('Masukkan jumlah angka : '))
+if inp <= 0:
     print('Tidak ada angka untuk diproses.')
 else:
-    print('Masukkan', input, 'angka : ')
+    print('Masukkan', inp, 'angka : ')
     x = []
-    for i in range(input):
+    for i in range(inp):
         print('Angka ke -', i + 1, ': ', sep='', end='')
         x.append(int(input()))
     print()
 
     max_num = x[0]
-    for i in range(1, input):
+    for i in range(1, inp):
         if x[i] > max_num:
             max_num = x[i]
 
