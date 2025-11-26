@@ -1,6 +1,4 @@
-print('Daftar mahasigma')
-print('----------------')
-print()
+print('Daftar mahasiswa')
 
 students = [
     {"No": 1, "Nama": "Ani",    "Nilai": 80},
@@ -15,4 +13,4 @@ for s in students:
 
 print("\n--- Deskripsi ---")
 for s in students:
-    print(f"no urut {s['No']} bernama {s['Nama'].lower()} dengan nilai {s['Nilai']}")
+    print(f"no {s['No']}, nama {s['Nama'].lower()}, nilai {s['Nilai']}")
