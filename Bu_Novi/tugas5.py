@@ -1,20 +1,18 @@
-print('Program Mencari Angka Terbesar')
-print('--------------------------')
-n = int(input('Masukkan jumlah angka : '))
+input = int(input('Masukkan jumlah angka : '))
 
-if n <= 0:
+if input <= 0:
     print('Tidak ada angka untuk diproses.')
 else:
-    print('Masukkan', n, 'angka : ')
+    print('Masukkan', input, 'angka : ')
 
     x = []
-    for i in range(n):
+    for i in range(input):
         print('Angka ke -', i + 1, ': ', sep='', end='')
         x.append(int(input()))
     print()
 
     max_num = x[0]
-    for i in range(1, n):
+    for i in range(1, input):
         if x[i] > max_num:
             max_num = x[i]
 
