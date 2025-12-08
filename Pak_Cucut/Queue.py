@@ -61,7 +61,6 @@ class CircularQueue:
         item = self.queue[self.front]
 
         if self.front == self.rear:
-            # Hanya ada satu elemen
             self.front = self.rear = -1
         else:
             self.front = (self.front + 1) % self.max_size
